@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" type="text/css"href="global.css">
+     <h1 style="color:gold;font-size: 100px;text-align: center">Main Hoon Na</h1>
+</head>
+<body>
+<div class="form-container">
+	 <div class="user-img"></div>
+	 <ul class="list">
+	 	 <label>Select Login:</label>
+	 	  <select class="form-control text">
+			        <option value="Faculty Login">Faculty</option>
+			        <option value="Student Login">Student</option>
+			        </select><br/><br/>
+
+         
+	 	 <li><input type="text"name="UserName" placeholder="UserName"></li>
+	 	 <br/>
+	 	 <li><input type="pasword"name="password" placeholder="password"></li>
+	 	 <br/>
+	 	 <li><input type="button"name="Login" value="Login"></li>
+	 	 <li>Forgot Password?</li>
+	 	 <br/>
+	 	 <li><input type="button" value="Register Now"></li>
+	 </ul>
+</div>
+</body>
+</html
